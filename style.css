@@ -93,6 +93,7 @@ html{
 /*home section styling */
 .home{
     background-image: url('background2.png');
+    background-size:100vh;
     display: flex;
     height: 100vh;
     padding-top: 30px;
