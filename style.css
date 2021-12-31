@@ -699,6 +699,10 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .education .carousel .card{
+        padding: 45px 35px;
+        height: 295px;
+    }
     .about .about-content .right .text{
         font-size: 19px;
     }
