@@ -203,7 +203,6 @@ section .title::after{
     width: 250px;
     object-fit: cover;
     border-radius: 6px;
-    margin-left: 75px;
 }
 .about .about-content .right{
     width: 55%;
@@ -591,15 +590,7 @@ footer span a:hover{
         margin-left: 0px;
     }
 }
-@media (max-width:1104px){
-    .about .about-content .left img{
-        height: 350px;
-        width: 350px;
-    }
-    .about .about-content .left img{
-        margin: none;
-    }
-}
+
 @media (max-width:991px){
     .max-width{
         padding: 0 50px;
