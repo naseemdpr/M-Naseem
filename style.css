@@ -93,7 +93,7 @@ html{
 /*home section styling */
 .home{
     background-image: url('background2.png');
-    background-repeat:no-repeat;
+    background-size:cover;
     display: flex;
     height: 100vh;
     padding-top: 30px;
