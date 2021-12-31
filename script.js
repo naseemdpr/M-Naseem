@@ -33,7 +33,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Analyst", "Designer"],
+        strings: ["Developer", "Data Analyst", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
