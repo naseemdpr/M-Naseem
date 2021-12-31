@@ -50,7 +50,7 @@ $(document).ready(function(){
                 items:1,
                 nav:false
             },
-            600:{
+            800:{
                 items:2,
                 nav:false
             },
