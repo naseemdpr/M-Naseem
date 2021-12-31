@@ -93,7 +93,7 @@ html{
 /*home section styling */
 .home{
     background-image: url('background2.png');
-    background-size: 210vh;
+    background-size: 380px;
     background-repeat: no-repeat;
     display: flex;
     height: 100vh;
@@ -147,7 +147,7 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .project, .skills, .teams, .contact, footer{
+.about, .project, .skills, .education, .contact, footer{
     font-family: 'Poppins', sans-serif ;
 }
 .about .about-content,
