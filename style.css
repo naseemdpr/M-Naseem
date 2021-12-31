@@ -699,6 +699,9 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .about .about-content .right .text{
+        font-size: 19px;
+    }
     .project .pro-content{
         padding: 0;
     }
