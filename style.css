@@ -596,6 +596,9 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .about .about-content .left img{
+        margin: none;
+    }
 }
 @media (max-width:991px){
     .max-width{
