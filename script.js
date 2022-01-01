@@ -140,7 +140,7 @@ $(document).ready(function(){
                     
                 }
                 else
-                    alert("Your data is in correct")
+                    alert("Your data is incorrect")
             },
             error:function (err){
                 alert("Something Error")
