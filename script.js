@@ -120,5 +120,33 @@ $(document).ready(function(){
             }
         }
     });
+    $("#signup-form").submit((e)=>{
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var textarea = $('#textarea').val();
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+       
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbxjW0y7KuKYadLHZtd5t-H9KhecpKKERI85ZUdc/exec",
+            data:$("#signup-form").serialize(),
+            method:"post",
+            success:function (response){
+                if(textarea.length>3 && name.length>3 && regex.test(email)){
+                    alert("Your message successfully send")
+                    window.location.reload()
+                //window.location.href="https://google.com"
+                    
+                }
+                else
+                    alert("Your data is in correct")
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    });
 });
 
